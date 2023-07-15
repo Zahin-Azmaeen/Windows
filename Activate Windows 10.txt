@@ -19,3 +19,16 @@ Enterprise 2015 LTSB WNMTR-4C88C-JK8YV-HQ7T2-76DF9
 Enterprise 2015 LTSB N 2F77B-TNFGY-69QQF-B8YKP-D69TJ
 Enterprise 2016 LTSB DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
 Enterprise 2016 LTSB N QFFDN-GRT3P-VKWWX-X7T3R-8B639
+
+
+Open a command prompt as an Administrator.
+
+Enter slmgr /upk and wait for this to complete. This will uninstall the current product key from Windows and put it into an unlicensed state.
+
+Enter slmgr /cpky and wait for this to complete. This will remove the product key from the registry if it's still there.
+
+Enter slmgr /rearm and wait for this to complete. This is to reset the Windows activation timers so the new users will be prompted to activate Windows when they put in the key
+
+slmgr /ipk 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
+slmgr /ato
+
